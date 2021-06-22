@@ -8,9 +8,6 @@ This is the code for the paper [Communicative Reinforcement Learning Agents for 
 
 Accurate detection of anatomical landmarks is an essential step in several medical imaging tasks. This repository implements a novel communicative multi-agent reinforcement learning (C-MARL) system to automatically detect landmarks in 3D medical images. C-MARL enables the agents to learn explicit communication channels, as well as implicit communication signals by sharing certain weights of the architecture among all the agents.
 
-In addition to C-MARL, the code also supports single agents and multi-agents with no communication channel (named Network3d).
-This code is originally a fork from [Amir Alansary's repository](https://github.com/amiralansary/rl-medical).
-
 10 brain MRI scans each with 20 landmarks annotated from the ADNI dataset are included in the `data` folder for convenience.
 
 ## Results
