@@ -2,7 +2,6 @@
 # RL-Medical
 
 Multiagent Deep Reinforcement Learning for Anatomical Landmark Detection using PyTorch.
-This is the code for the paper [Communicative Reinforcement Learning Agents for Landmark Detection in Brain Images](https://arxiv.org/abs/2008.08055).
 
 ## Introduction
 
