@@ -1,18 +1,18 @@
 
 # RL-Medical
 
-Multiagent Deep Reinforcement Learning for Anatomical Landmark Detection using PyTorch.
+Multiagent Deep Reinforcement Learning for Anatomical Marker Detection using PyTorch.
 
 ## Introduction
 
-Accurate detection of anatomical landmarks is an essential step in several medical imaging tasks. This repository implements a novel communicative multi-agent reinforcement learning system to automatically detect landmarks in 3D medical images. This algorithm enables the agents to learn explicit communication channels, as well as implicit communication signals by sharing certain weights of the architecture among all the agents.
+Accurate detection of anatomical markerss is an essential step in several medical imaging tasks. This repository implements a novel communicative multi-agent reinforcement learning system to automatically detect markers in 3D medical images. This algorithm enables the agents to learn explicit communication channels, as well as implicit communication signals by sharing certain weights of the architecture among all the agents.
 
-10 brain MRI scans each with 20 landmarks annotated from the ADNI dataset are included in the `data` folder for convenience.
+10 brain MRI scans each with 20 markers annotated from the ADNI dataset are included in the `data` folder for convenience.
 
 ## Results
 Here are a few examples of the learned agents on unseen data:
 
-* An  example  of  our  proposed  algorithm  system  consisting  of  5  agents.  These agents are looking for 5 different landmarks in a brain MRI scan. Each agent’s ROI is represented by a yellow box and centered around a blue point, while the red point is the target landmark. ROI is sampled with 3mm spacing at the beginning of every episode. The length of the circumference of red disks denotes the distance between the current and target landmarks in z-axis.
+* An  example  of  our  proposed  algorithm  system  consisting  of  5  agents.  These agents are looking for 5 different markers in a brain MRI scan. Each agent’s ROI is represented by a yellow box and centered around a blue point, while the red point is the target marker. ROI is sampled with 3mm spacing at the beginning of every episode. The length of the circumference of red disks denotes the distance between the current and target markers in z-axis.
 <p align="center">
 <img src="./doc/brain_5_agents.gif">
 </p>
